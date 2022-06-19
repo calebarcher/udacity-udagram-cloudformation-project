@@ -1,0 +1,11 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdacityUdagramProject"
+	},
+	
+	{
+        "ParameterKey": "requiredAMI",
+        "ParameterValue": "ami-0729e439b6769d6ab"
+      }
+]
