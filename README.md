@@ -8,6 +8,3 @@ I have included a Bastion host/Jump box in one of the public subnets to allow me
 The cloudormation scripts are seperated into 2 files as follows:
 1. **udagram-network.yml:** This file contains the scripts for creating our VPC, subnets and routing rules and resources. This file also contains an outputs section. its parameter file is "udagram-network-params.json"
 2. **udagram-servers.yml:** This file contains the scripts for creating our EC2 instances, security groups auto-scaling and load balancer. It outputs the DNS name of our load banalcer. its parameter file is "udagram-servers-params.json"
-
-**LOAD-BALANCER DNS URL**
-http://udagr-webap-wcme27ewiabd-41043254.us-east-1.elb.amazonaws.com/
